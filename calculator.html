@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+<center><h1 style="color:white; background-color:#130f40;padding-top: 20px;padding-bottom: 20px;margin-bottom: 30px;">Calculator</h1></center>
+<div class="main">
+<form name="calculator">
+<input type="text" name="display"><br><br>
+<input type="button" value="9" onclick="calculator.display.value+='9'">
+<input type="button" value="8" onclick="calculator.display.value+='8'">
+<input type="button" value="7" onclick="calculator.display.value+='7'">
+<input type="button" value="/" onclick="calculator.display.value+='/'"><br><br>
+<input type="button" value="6" onclick="calculator.display.value+='6'">
+<input type="button" value="5" onclick="calculator.display.value+='5'">
+<input type="button" value="4" onclick="calculator.display.value+='4'">
+<input type="button" value="*" onclick="calculator.display.value+='*'"><br><br>
+<input type="button" value="3" onclick="calculator.display.value+='3'">
+<input type="button" value="2" onclick="calculator.display.value+='2'">
+<input type="button" value="1" onclick="calculator.display.value+='1'">
+<input type="button" value="-" onclick="calculator.display.value+='-'"><br><br>
+<input type="button" value="0" onclick="calculator.display.value+='0'">
+<input type="button" value="+" onclick="calculator.display.value+='+'">
+<input type="button" value="%" onclick="calculator.display.value+='%'">
+<input type="button" value="=" onclick="calculator.display.value=eval(calculator.display.value)"><br><br>
+<input type="button" value="Clear" onclick="calculator.display.value=''" id="del">
+</form>
+</div>
+<footer>
+	<h3>Developer:</h3>
+	<p>Shahana Akter</p>
+	<h3>Email:</h3>
+	<p>shahana018249@gmail.com</p>
+</footer>
+</body>
+</html>
